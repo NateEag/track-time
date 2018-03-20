@@ -45,7 +45,7 @@ To add a note to a task:
     track-time note [task-name] [subtask-names...]
 
 If the name is not specified it applies to the active task (it exits with a
-nonzero status if no task is active in that case). It's handy if you want a log
+nonzero status if no task is active and no task is given). It's handy if you want a log
 for display on invoices or similar.
 
 To stop tracking a task, just say
