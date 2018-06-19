@@ -58,7 +58,7 @@ ancestors active. If no task is running it will say so.
 Subtasks can be nested to arbitrary depths, in theory. In practice an
 implementation may limit depth.
 
-Onr value of this approach is that you can use hooks to activate tasks based on
+One value of this approach is that you can use hooks to activate tasks based on
 what file paths you are active in. For me, running a hook on focused buffer
 change in Emacs and on prompt display in shell to check current dir would do
 pretty well at setting my active task, especially if I added a 'current
